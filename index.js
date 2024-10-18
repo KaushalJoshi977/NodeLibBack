@@ -7,7 +7,7 @@
  const cors = require('cors');
 app.use(cors());
 app.use(bodyParser.json());
-const mongourl = "mongodb+srv://kaushaljoshi977:mtZV6gwqcpjDKjjV@cluster0.jmt29gn.mongodb.net/Edunet1?retryWrites=true&w=majority&appName=Cluster0"
+const mongourl = "mongodb+srv://kaushaljoshi977:<pass>@cluster0.jmt29gn.mongodb.net/Edunet1?retryWrites=true&w=majority&appName=Cluster0"
 const localurl='mongodb://localhost:27017/library'
  mongoose.connect(mongourl);
  app.use(express.json());
